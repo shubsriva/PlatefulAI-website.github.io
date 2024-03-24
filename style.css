@@ -1,0 +1,80 @@
+/* Further updated CSS file for Plateful.AI with smaller images for desktop layouts */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section, footer {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: blue;
+    overflow: hidden;
+}
+
+nav button {
+    float: left;
+    display: block;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+img {
+    max-width: 40%; /* Smaller image size for desktop layouts */
+    height: auto;
+    margin: 20px auto; /* Centering images */
+    display: block; /* Makes it easier to apply margin auto for centering */
+}
+
+button {
+    background-color: #4CAF53;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+#intro {
+    background-color: #fffde7; /* Light yellow background for intro section */
+}
+
+#features {
+    background-color: #e8f5e9; /* Light green background for features section */
+}
+
+#how-it-works {
+    background-color: #e3f2f3; /* Light red background for how-it-works section */
+}
+
+#about-us {
+    background-color: #e3f2fd; /* Light blue background for about-us section */
+}
+
+#testimonials {
+    background-color: #e3f2f5; /* Light orange background for testimonials section */
+}
+
+
+footer p {
+    color: #777;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+}
